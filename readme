@@ -1,0 +1,52 @@
+Django Backend Project
+
+This is a Django backend project developed using Django REST framework. The project serves as an API backend for a web application or mobile app.
+
+Requirements
+Make sure you have the following software installed before setting up the project:
+
+Python 3.x
+Django 3.x
+Django REST framework
+Pillow
+
+Installation
+Clone the repository:
+
+git clone https://github.com/shaalwan/AIPlanetBackend
+
+
+Change into the project directory:
+
+cd your-repo
+
+
+Apply the database migrations:
+
+python manage.py makemigrations
+python manage.py migrate
+
+
+Start the development server:
+
+python manage.py runserver
+Access the API at http://localhost:8000/.
+
+Configuration
+Update the database settings in the settings.py file according to your database configuration.
+
+
+Authentication and Permissions
+The project includes authentication and permission settings to control access to the API endpoints. By default, the following settings are implemented:
+
+Authentication: basic authentication 
+Permissions: Basic permission classes such as IsAuthenticated etc.
+
+You can customize the authentication and permission settings based on your project requirements. Please refer to the Django REST framework documentation for more details.
+
+
+
+Acknowledgements
+Django
+Django REST framework
+Feel free to customize the README file according to your project's specific details, including adding sections for project structure, deployment instructions, or any other relevant information.
